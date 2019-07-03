@@ -17,3 +17,25 @@ print(y2)
 # 패키지 설치 및 로드하기
 # install.packages("package_name")
 # library("package_name")
+
+str(x5)  # 변수의 모든 속성 확인
+# num = 숫자형, [1:4] = 4개의 데이터, 포함하는 값 목록
+length(x5)  # 변수의 데이터 길이
+
+str(y2)
+length(y2)
+
+logi <- c(TRUE, TRUE, FALSE, TRUE)  # 논리형 데이터 집합
+print(logi)
+str(logi)
+length(logi)
+
+typeof(logi)  # 변수의 데이터 유형만 확인하는 함수
+mode(logi)  # 변수의 데이터 유형만 확인하는 함수
+
+not_used_data1 <- c(101:200)
+not_used_data2 <- c(1:100)
+
+remove(not_used_data1)  # 필요없는 데이터 집합 삭제
+rm(not_used_data2)  # 필요없는 데이터 집합 삭제
+
